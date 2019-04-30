@@ -1,7 +1,8 @@
 applications:
 - name: tracker-allocations-pravanjan
   path: ./applications/allocations-server/build/libs/allocations-server.jar
-  routes:allocations-pal-pravanjan.apps.dev.pcf-aws.com
+  routes:
+  - route: allocations-pal-pravanjan.apps.dev.pcf-aws.com
   memory: 1G
   instances: 1
   env:
